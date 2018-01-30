@@ -24,16 +24,16 @@ filter.filter((item)=>{return item%3 === 0})  //输出结果是 [33, 3, 66]
 例：
 let sum = 0;
 let each = [11,22,33,44,5,4,3,2,66,77];
-let total = (item)=>{sum += item;console.log(sum)};
+let total = (item)=>{sum += item;console.log('sum', sum)};
 each.forEach(total)
 输出结果是：
-11        VM638:3
-33        VM638:3
-66        VM638:3
-110       VM638:3
-115       VM638:3
-119       VM638:3
-122       VM638:3
-124       VM638:3
-190       VM638:3
-267       VM638:3
+sum     11
+sum     33
+sum     66
+sum     110
+sum     115
+sum     119
+sum     122
+sum     124
+sum     190
+sum     267
